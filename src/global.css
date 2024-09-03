@@ -1,0 +1,68 @@
+/* -------------------- Variables -------------------- */
+
+:root {
+  --rose--500: #f43f5e;
+  --rose--400: #fb7185;
+  --rose--300: #fda4af;
+}
+
+/* -------------------- Body -------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'VT323', monospace; /* Fallback to monospace if the font fails to load */
+  margin: 2rem;
+  padding: 0;
+}
+
+/* -------------------- Text -------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 1rem 0;
+}
+
+h1 {
+  color: var(--rose--400);
+}
+
+span {
+  color: var(--rose--300);
+}
+
+/* -------------------- Header -------------------- */
+
+/* -------------------- Navigation -------------------- */
+
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  border: 2px solid var(--rose--500);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--rose--500);
+}
+
+li a {
+  color: unset;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.header__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__home img {
+  height: 2rem;
+  width: 2rem;
+  filter: invert(34%) sepia(96%) saturate(2169%) hue-rotate(327deg) brightness(98%) contrast(96%);}
