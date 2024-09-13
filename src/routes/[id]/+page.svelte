@@ -12,7 +12,7 @@
   <article>
     <h1>{post.title}</h1>
     <p>{post.date}</p>
-    {@html post.htmlContent}
+    {@html post.content}
   </article>
 {:else}
   <p>Loading...</p>
