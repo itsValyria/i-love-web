@@ -16,7 +16,8 @@ export async function load() {
       return {
         id: filename.replace(/\.md$/, ''), // Extract id from filename
         title: data.title,
-        date: data.date
+        date: data.date,
+        description: data.description
       };
     });
 

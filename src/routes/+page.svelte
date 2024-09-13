@@ -25,10 +25,12 @@
   li {
     margin: 1rem 0;
     padding: 1rem;
+
     display: flex;
     flex-direction: column;
 
-    background-color: var(--rose--400);
+    background-color: var(--rose--500);
     color: var(--white--000);
+    border-radius: 8px;
   }
 </style>
