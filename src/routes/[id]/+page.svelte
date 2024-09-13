@@ -11,7 +11,6 @@
 {#if post}
   <article>
     <h1>{post.title}</h1>
-    <p>{post.date}</p>
     {@html post.content}
   </article>
 {:else}
