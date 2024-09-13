@@ -11,7 +11,7 @@
 {#if post}
   <article>
     <h1>{post.title}</h1>
-    <time datetime={post.date}>{post.date}</time>
+    <p>{post.date}</p>
     {@html post.htmlContent}
   </article>
 {:else}

@@ -17,7 +17,7 @@ export async function load({ params }: { params: LoadParams }) {
     if (!fs.existsSync(filePath)) {
       return {
         status: 404,
-        error: new Error('Post not found')
+        error: 'Post not found' // Return a simple string error
       };
     }
 
@@ -29,14 +29,14 @@ export async function load({ params }: { params: LoadParams }) {
       post: {
         title: data.title,
         date: data.date,
-        htmlContent
+        content: htmlContent
       }
     };
   } catch (error) {
-    console.error('Error loading post:', error); // Log detailed error
+    console.error('Error loading post:', error);
     return {
       status: 500,
-      error: new Error('Internal Server Error')
+      error: 'Internal Server Error' // Return a simple string error
     };
   }
 }
