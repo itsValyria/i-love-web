@@ -9,6 +9,13 @@
       <li>
         <a href={`/${post.id}`}>
           <h2>{post.title}</h2>
+          <div class="labels">
+            {#each post.labels as label}
+              <span class="label">{label}
+                <img src="/images/label.svg" alt="label">
+              </span>
+            {/each}
+          </div>
           <p>{post.description}</p>
         </a>
       </li>
@@ -33,4 +40,31 @@
     color: var(--white--000);
     border-radius: 8px;
   }
+
+  li:nth-child(even) {
+  background-color: var(--rose--400);
+  }
+
+  .labels {
+    display: flex;
+  }
+
+  .labels span {
+    background-color: var(--white--000);
+    color: var(--rose--500);
+    padding: 0.2rem 0.4rem;
+    margin-right: 0.6rem;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .labels img {
+    height: 1rem;
+    margin-right: 0.4rem;
+    filter: invert(34%) sepia(96%) saturate(2169%) hue-rotate(327deg) brightness(98%) contrast(96%);
+    }
 </style>
