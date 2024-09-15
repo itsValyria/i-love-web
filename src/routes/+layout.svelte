@@ -34,7 +34,8 @@
 </main>
 
 <footer>
-
+<p>made with &lt;3 <span>by eef</span></p>
+<a href="https://eefhaller.com/">eefhaller.com</a>
 </footer>
 
 <style>
