@@ -39,5 +39,9 @@
 </footer>
 
 <style>
-
+  ol li:first-of-type {
+    background-color: var(--rose--500);
+    color: var(--white--000);
+    border-radius: 4px;
+  }
 </style>

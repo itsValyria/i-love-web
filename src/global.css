@@ -43,18 +43,23 @@ nav ol {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.6rem;
+  grid-template-rows: repeat(4, auto);
+  grid-auto-flow: column;
+  gap: 0rem;
   border: 2px solid var(--rose--500);
   border-radius: 8px;
   padding: 1rem;
   color: var(--rose--500);
 }
 
+ol li {
+  padding: 0.2rem 0.4rem;
+}
+
 li a {
   color: unset;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .header__div {
