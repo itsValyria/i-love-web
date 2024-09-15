@@ -47,13 +47,15 @@
 
   .labels {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    white-space: nowrap;
   }
 
   .labels span {
     background-color: var(--white--000);
     color: var(--rose--500);
     padding: 0.2rem 0.4rem;
-    margin-right: 0.6rem;
     border-radius: 8px;
 
     display: flex;
