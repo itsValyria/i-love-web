@@ -14,14 +14,19 @@ html {
 }
 
 body {
-  font-family: 'VT323', monospace; /* Fallback to monospace if the font fails to load */
+  font-family: "VT323", monospace; /* Fallback to monospace if the font fails to load */
   margin: 2rem;
   padding: 0;
 }
 
 /* -------------------- Text -------------------- */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
   margin: 1rem 0;
 }
@@ -71,7 +76,9 @@ li a {
 .header__home img {
   height: 2rem;
   width: 2rem;
-  filter: invert(34%) sepia(96%) saturate(2169%) hue-rotate(327deg) brightness(98%) contrast(96%);}
+  filter: invert(34%) sepia(96%) saturate(2169%) hue-rotate(327deg)
+    brightness(98%) contrast(96%);
+}
 
 /* -------------------- Footer -------------------- */
 
@@ -90,4 +97,30 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .header__home img {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  nav ol {
+    grid-template-rows: repeat(2, auto);
+    gap: 0 3rem;
+  }
+
+  .nav a {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1399px) {
+  nav ol {
+    grid-template-rows: repeat(1, auto);
+  }
 }

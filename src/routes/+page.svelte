@@ -69,4 +69,17 @@
     margin-right: 0.4rem;
     filter: invert(34%) sepia(96%) saturate(2169%) hue-rotate(327deg) brightness(98%) contrast(96%);
     }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem 0;
+      }
+
+      li {
+        margin: 0;
+      }
+    }
 </style>

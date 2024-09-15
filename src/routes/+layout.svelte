@@ -16,7 +16,7 @@
     </a>
   </div>
   <nav>
-    <ol>
+    <ol class="nav">
       <li><a href="#sprint13">&gt; Sprint 13</a></li>
       <li><a href="#sprint14">&gt; Sprint 14</a></li>
       <li><a href="#sprint15">&gt; Sprint 15</a></li>
