@@ -17,14 +17,14 @@
   </div>
   <nav>
     <ol>
-      <li><a href="#sprint13">Sprint 13</a></li>
-      <li><a href="#sprint14">Sprint 14</a></li>
-      <li><a href="#sprint15">Sprint 15</a></li>
-      <li><a href="#sprint16">Sprint 16</a></li>
-      <li><a href="#sprint17">Sprint 17</a></li>
-      <li><a href="#sprint18">Sprint 18</a></li>
-      <li><a href="#sprint19">Sprint 19</a></li>
-      <li><a href="#sprint20">Sprint 20</a></li>
+      <li><a href="#sprint13">&gt; Sprint 13</a></li>
+      <li><a href="#sprint14">&gt; Sprint 14</a></li>
+      <li><a href="#sprint15">&gt; Sprint 15</a></li>
+      <li><a href="#sprint16">&gt; Sprint 16</a></li>
+      <li><a href="#sprint17">&gt; Sprint 17</a></li>
+      <li><a href="#sprint18">&gt; Sprint 18</a></li>
+      <li><a href="#sprint19">&gt; Sprint 19</a></li>
+      <li><a href="#sprint20">&gt; Sprint 20</a></li>
     </ol>
   </nav>
 </header>
