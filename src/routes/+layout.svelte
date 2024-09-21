@@ -44,4 +44,8 @@
     color: var(--white--000);
     border-radius: 4px;
   }
+
+  footer {
+    font-size: 1.2rem;
+  }
 </style>

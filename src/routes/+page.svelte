@@ -39,6 +39,7 @@
     background-color: var(--rose--500);
     color: var(--white--000);
     border-radius: 8px;
+    min-height: 14rem;
   }
 
   li:nth-child(even) {
@@ -68,7 +69,7 @@
     height: 1rem;
     margin-right: 0.4rem;
     filter: invert(34%) sepia(96%) saturate(2169%) hue-rotate(327deg) brightness(98%) contrast(96%);
-    }
+  }
 
     @media screen and (min-width: 768px) and (max-width: 1023px) {
       ul {
