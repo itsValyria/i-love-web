@@ -8,7 +8,8 @@
   }
 </script>
 
-{#if post}
+<main>
+  {#if post}
   <article>
     <h1>{post.title}</h1>
     {@html post.content}
@@ -16,3 +17,10 @@
 {:else}
   <p>Loading...</p>
 {/if}
+</main>
+
+<style>
+  main {
+    min-height: 60vh;
+  }
+</style>
