@@ -56,7 +56,7 @@
   .labels span {
     background-color: var(--white--000);
     color: var(--rose--500);
-    padding: 0.2rem 0.4rem;
+    padding: 0.2rem 0.6rem;
     border-radius: 8px;
 
     display: flex;

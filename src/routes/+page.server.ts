@@ -23,7 +23,7 @@ export async function load() {
     });
 
     // Sort posts by id in descending order (highest to lowest)
-    posts.sort((a, b) => b.id.localeCompare(a.id));
+    posts.sort((a, b) => b.id.localeCompare(a.id, undefined, { numeric: true }));
 
     return {
       posts,
