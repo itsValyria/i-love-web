@@ -2,7 +2,7 @@
 id: "9"
 title: "19 september 2024"
 date: "2024-09-19"
-description: "A"
+description: "Vandaag heb ik de grid voor de squad page gemaakt en heb ik de animatie in elkaar gezet door middel van preventDefault en JS magic."
 labels: ["Sprint 13", "Bouwen", "Testen"]
 ---
 

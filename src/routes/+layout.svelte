@@ -48,4 +48,21 @@
   footer {
     font-size: 1.2rem;
   }
+
+  @media screen and (min-width: 1399px) {
+    header {
+      width: 80vw;
+      margin: 0 auto;
+    }
+
+    main {
+      width: 80vw;
+      margin: 0 auto;
+    }
+
+    footer {
+      width: 80vw;
+      margin: 0 auto;
+    }
+  }
 </style>
