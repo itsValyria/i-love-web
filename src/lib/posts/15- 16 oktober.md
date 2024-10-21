@@ -2,7 +2,7 @@
 id: "15"
 title: "16 oktober 2024"
 date: "2024-10-16"
-description: ""
+description: "Vandaag heb ik custom properties toegevoegd en de talks van Kevin, Shyanta en Justus bijgewoond."
 labels: ["Sprint 15", "Bouwen"]
 ---
 

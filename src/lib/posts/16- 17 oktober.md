@@ -2,7 +2,7 @@
 id: "16"
 title: "17 oktober 2024"
 date: "2024-10-17"
-description: ""
+description: "Vandaag heb ik de search bar gebouwd, en voor het eerst een slug route opgezet met Astro."
 labels: ["Sprint 15", "Bouwen"]
 ---
 

@@ -2,7 +2,7 @@
 id: "17"
 title: "18 oktober 2024"
 date: "2024-10-18"
-description: ""
+description: "Vandaag heb ik mentor gespeeld bij de eerstejaars en een bug op mijn website gefixt."
 labels: ["Sprint 15", "Bouwen", "Mentoren"]
 ---
 
