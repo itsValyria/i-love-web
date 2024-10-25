@@ -4,7 +4,7 @@ import path from "path";
 import matter from "gray-matter";
 
 export async function load() {
-  const postsDirectory = path.resolve("./src/lib/posts");
+  const postsDirectory = path.resolve("/src/lib/posts");
 
   try {
     const filenames = fs.readdirSync(postsDirectory);
